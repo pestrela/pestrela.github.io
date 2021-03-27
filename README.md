@@ -2,9 +2,12 @@
 
 This site contains my repository contains my DJ and covid Blog posts
 
-* Knowledge base: <https://github.com/pestrela/dj_kb>
+* Knowledge base: 
+    * <https://github.com/pestrela/dj_kb>
+    * <http://pestrela.github.io/dj_kb>
 * Mappings documentation: <https://github.com/pestrela/dj_maps>
 
+Covid: <https://covid-pestrela.readthedocs.io/>
 
 ## DJ Estrela - Github home
 
