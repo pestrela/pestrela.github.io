@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>APP - Covid posts</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "APP";
+    var mkdocs_page_input_path = "app.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Covid posts</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../confinamento/">Confinamento</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../vacinacao/">Vacinacao</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../negacionistas/">Negacionistas</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../estatistica/">Estatistica</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../infarmed/">Infarmed</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../testes/">Testes</a>
+                    </li>
+                </ul>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">APP</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#privacidade-actual-e-perda-de-privacidade-em-democracias-asiaticas">Privacidade actual, e perda de privacidade em democracias asiaticas</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#app-e-privacidade">App e privacidade</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#resolucoes-do-cnpd">Resolucoes do CNPD</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#app-sumario-17-julho">APP Sumario - 17 Julho</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#como-funciona-a-app-covid">Como funciona a APP covid</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#a-app-nao-e-magica">A App não é mágica</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#why-google-and-apple-failed-at-covid-19-digital-response">Why Google and Apple Failed at COVID-19 Digital Response</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#quais-sao-as-duas-tecnologias-para-as-apps-covid-qual-e-a-que-portugal-vai-ter">Quais sao as duas tecnologias para as Apps covid? qual 'e a que portugal vai ter?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#porque-e-que-o-gaen-no-android-necessita-de-localizacao">Porque 'e que o GAEN no Android necessita de localização?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#o-gaen-liga-a-localizacao-no-iphone">o GAEN liga a localização no iPhone?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#os-codigos-da-app-nao-sao-gerados-automaticos">Os codigos da app nao sao gerados automaticos</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#como-configurar-os-servicos-de-localizacao-em-android-e-iphone">Como configurar os servicos de localizacao em Android e Iphone?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#quantas-pessoas-ja-foram-alertadas-pela-app">Quantas pessoas já' foram alertadas pela APP?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#app-covid-em-espanha">APP covid em espanha</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#carta-aberta-de-200-cientistas-a-favor-do-medelo-de-app-descentralizado-baseado-em-bt">Carta aberta de 200 cientistas a favor do medelo de APP descentralizado baseado em BT</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#sobre-tomas-pueyo">Sobre Tomas Pueyo</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#entrevista-a-um-programador-da-app">Entrevista a um programador da App</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#sobre-a-app-no-pplware">Sobre a APP, no pplware</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#app-vs-apps-maradas">APP vs APPs maradas</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#app-tem-que-estar-a-funcionar-antes-do-teste">APP tem que estar a funcionar ANTES do teste</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#suporte-da-analise-tecnica-da-app">Suporte da analise tecnica da App</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#quanto-custou-a-app">Quanto custou a app</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#como-funciona-a-app-por-dentro">Como funciona a app por dentro</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#o-que-fazer-quando-a-app-enviar-um-alerta-enviar-alertas-demais">O que fazer quando a app enviar um alerta / enviar alertas demais</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#a-app-e-demasiado-manual">A APP 'e demasiado manual</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#a-app-falhou-por-razoes-politicas">A App falhou por razoes politicas</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#marco-2021-governo-quer-agilizar-app">Marco 2021: governo quer agilizar App</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#resolucoes-da-cnpd-sobre-a-app">Resolucoes da CNPD sobre a APP</a>
+    </li>
+    </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../mascaras/">Mascaras</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../humor/">Humor</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../varios/">Varios</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Covid posts</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>APP</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="app-covid">APP covid<a class="headerlink" href="#app-covid" title="Permanent link">&para;</a></h1>
+<h2 id="privacidade-actual-e-perda-de-privacidade-em-democracias-asiaticas">Privacidade actual, e perda de privacidade em democracias asiaticas<a class="headerlink" href="#privacidade-actual-e-perda-de-privacidade-em-democracias-asiaticas" title="Permanent link">&para;</a></h2>
+<p>Ver o artigo abaixo sff. Ao contrario da app, isto sim implicaria perdas concretas de privacidade.</p>
+<p>Mas ainda estavam acima da perda de privacidade real dos telemoveis e dos impostos, e teria ganhos de liberdade muito relevantes.</p>
+<p>'E uma discussao complexa. Mas ainda falta muito ate' a sociedade estar pronta para discutir este assunto devidamente.</p>
+<p>Artigo:\<br />
+"Fica então mais claro, que o sucesso coreano advém da legislação democraticamente passada após a epidemia do MERS, em 2012, que permite uma vigilância mais apertada em caso de epidemia."</p>
+<p>"Dizem que os ocidentais não aceitam a intromissão do governo nos seus dados − ingenuidade e negação para quem usa iOS, Android, ou paga impostos. Mas quem tem maior liberdade neste momento são os cidadãos do Japão, Taiwan, Coreia do Sul, Nova Zelândia e outros no Pacífico"</p>
+<p><a href="https://observador.pt/opiniao/apocalipticos-da-privacidade-vs-stayaway-covid-e-a-ciencia-de-dados-para-o-bem-comum/">https://observador.pt/opiniao/apocalipticos-da-privacidade-vs-stayaway-covid-e-a-ciencia-de-dados-para-o-bem-comum/</a></p>
+<h2 id="app-e-privacidade">App e privacidade<a class="headerlink" href="#app-e-privacidade" title="Permanent link">&para;</a></h2>
+<p>Finalmente a APP contra o covid foi aprovada pela CNPD. </p>
+<p>A deliberação 'e importante porque estamos a falar de potencialmente 10M pessoas, mas na pratica as criticas da CNPD são praticamente marginais, e inclusivamente tiveram que recorrer a hipotéticos cenários futuros.</p>
+<p><a href="https://www.cnpd.pt/home/decisoes/Delib/DEL_2020_277.pdf">https://www.cnpd.pt/home/decisoes/Delib/DEL_2020_277.pdf</a></p>
+<p>Poupo-vos a leitura das <a href="">23 paginas</a>, muito mais simples 'e ver a imagem abaixo que compara:
+- as permissões do Whatsapp, uma app que todos usam, mas que ninguém sabe o que realmente faz ("codigo-fonte fechado").</p>
+<ul>
+<li>'a APP Alemã, que qualquer pessoa pode inspecionar por ter "codigo-fonte aberto".
+<a href="https://www.coronawarn.app/en/faq/#open-source">https://www.coronawarn.app/en/faq/#open-source</a></li>
+</ul>
+<p>Ver também a mesma opinião os 2:10 de um dos poucos jornalistas especialistas em tecnologia - Lourenço Medeiros.</p>
+<p><a href="https://sicnoticias.pt/especiais/coronavirus/2020-06-30-Aplicacao-portuguesa-de-rastreio-a-covid-19">https://sicnoticias.pt/especiais/coronavirus/2020-06-30-Aplicacao-portuguesa-de-rastreio-a-covid-19</a></p>
+<p>Permissoes da APP alema:
+<img alt=" " src="../img/app_whatsapp_vs_covid_app.jpg" /></p>
+<p>Permissoes da APP espanhola:
+<img alt="" src="../img/app_espanha_permissoes.jpg" />  </p>
+<p>Permissoes de APPs populares:
+<img alt="" src="../img/permissoes_apps_populares.jpg" /></p>
+<p>Artigo da PCMag sobre permissoes de apps:
+https://www.pcmag.com/news/what-does-big-tech-know-about-you-basically-everything</p>
+<p>UPDATE: novo parecer da CNPD de 21 julho <a href="https://www.cnpd.pt/home/decisoes/Par/PAR_2020_82.pdf">pdf</a> 
+/ <a href="https://www.tsf.pt/portugal/sociedade/regulacao-da-app-do-governo-para-rastrear-doentes-com-covid-19-e-minimalista-12456785.html">noticia</a></p>
+<p>FB sic noticias:
+https://www.facebook.com/sicnoticias/posts/10158993076321388</p>
+<p>FB expresso:
+https://www.facebook.com/jornalexpresso/posts/10158171854462949</p>
+<h2 id="resolucoes-do-cnpd">Resolucoes do CNPD<a class="headerlink" href="#resolucoes-do-cnpd" title="Permanent link">&para;</a></h2>
+<p>Parecer 129/2020: 27 outubro\
+(orbigatoriadde da APP):
+<a href="https://www.cnpd.pt/umbraco/surface/cnpdDecision/download/121816">https://www.cnpd.pt/umbraco/surface/cnpdDecision/download/121816</a></p>
+<p>Parecer 82/2020: 21 julho\
+tratamento dos dados da APP:
+<a href="https://www.cnpd.pt/umbraco/surface/cnpdDecision/download/121776">https://www.cnpd.pt/umbraco/surface/cnpdDecision/download/121776</a></p>
+<p>deliberacao 277/2020: 29 junho\
+(consulta previa da APP)
+<a href="https://www.cnpd.pt/umbraco/surface/cnpdDecision/download/121773">https://www.cnpd.pt/umbraco/surface/cnpdDecision/download/121773</a></p>
+<p>Noticia TSF: <a href="aqui">https://www.tsf.pt/portugal/sociedade/regulacao-da-app-do-governo-para-rastrear-doentes-com-covid-19-e-minimalista-12456785.html</a></p>
+<p>Relacionado, artigo cientifico sobre transparencia de apps:
+<a href="https://down.dsg.cs.tcd.ie/tact/transp.pdf">https://down.dsg.cs.tcd.ie/tact/transp.pdf</a></p>
+<h2 id="app-sumario-17-julho">APP Sumario - 17 Julho<a class="headerlink" href="#app-sumario-17-julho" title="Permanent link">&para;</a></h2>
+<p>A app covid e’ comparável a uma pessoa cega, sem relógio, 
+que APENAS ouve falar de outras pessoas cegas anónimas, uma vez por dia.<br />
+Mais info:
+https://pestrela.github.io/covid/#app-e-privacidade</p>
+<p>A app do INESC foi feita de propósito para respeitar a privacidade. 
+Nao pede os recursos do telemóvel - nem de perto nem de longe - que estas 
+apps feitas por empresas privadas COM fims lucrativos pedem:
+Whatsapp, FB Messenger, Facebook, Google maps, Shazam</p>
+<p>Se o isolamento fosse instantâneo, a APP resolvia o problema com 60% de adopcao.<br />
+Se demorar 3 dias, todo o esforço 'e irrelevante
+https://pestrela.github.io/covid/#velocidade-de-rastreamento</p>
+<p>Na primeira quinzena de junho a velocidade mediana foi de 4 dias. Nao chega.<br />
+Fonte: pagina 16 de https://www.sns.gov.pt/wp-content/uploads/2020/07/infarmed_0807_Baltazar_Nunes.pdf </p>
+<p>A causa 'e que só há 600 pessoas para LVT. LVT sao 50 concelhos, 5 dos quais em calamidade e 5 dos quais em alerta.<br />
+https://github.com/pestrela/covid#comentario-paulo-portas-12-julho</p>
+<h2 id="como-funciona-a-app-covid">Como funciona a APP covid<a class="headerlink" href="#como-funciona-a-app-covid" title="Permanent link">&para;</a></h2>
+<p>Cada pais esta' autorizado pela Apple e pela Google a ter uma única APP covid por pais.
+No entanto, todas as APPs sao compatíveis entre si. </p>
+<p>Isto acontece porque as APPs usam um serviço novo bluetooth, criado pela Apple e Google, 
+que permite fazer a troca das mensagens anónimas sem gastar a bateria num instante.</p>
+<p>Para activar este serviço em IOS 13.5:<br />
+<a href="https://9to5mac.com/2020/05/19/how-to-turn-on-off-covid-19-contact-tracing-iphone-ios/">https://9to5mac.com/2020/05/19/how-to-turn-on-off-covid-19-contact-tracing-iphone-ios/</a><br />
+<img alt=" " src="https://9to5mac.com/wp-content/uploads/sites/6/2020/05/how-to-turn-onoff-contact-tracing-iphone-ios-13.5.png" /></p>
+<p>Para activar este serviço em Android (update May 2020):<br />
+<a href="https://www.howtogeek.com/677100/how-to-turn-off-covid-19-exposure-tracking-and-notifications-on-android/">https://www.howtogeek.com/677100/how-to-turn-off-covid-19-exposure-tracking-and-notifications-on-android/</a><br />
+<img alt=" " src="https://www.howtogeek.com/wp-content/uploads/2020/06/select-the-turn-off-exposure-notifications-and-or-delete-random-ids-option.png" /></p>
+<p>Fontes:</p>
+<ul>
+<li>FAQ: https://static.googleusercontent.com/media/www.google.com/en//covid19/exposurenotifications/pdfs/Exposure-Notification-FAQ-v1.2.pdf</li>
+<li>https://www.macrumors.com/guide/exposure-notification/</li>
+<li>https://expresso.pt/coronavirus/2020-07-24-Testamos-a-app-Stayaway-Covid-e-contamos-tudo-em-sete-passos</li>
+</ul>
+<h2 id="a-app-nao-e-magica">A App não é mágica<a class="headerlink" href="#a-app-nao-e-magica" title="Permanent link">&para;</a></h2>
+<p><a href="https://stayawaycovid.pt/2020/09/23/a-app-nao-e-magica/">https://stayawaycovid.pt/2020/09/23/a-app-nao-e-magica/</a></p>
+<p>A STAYAWAY COVID permite informar as pessoas que nos últimos 14 dias tenham estado perigosamente em contacto com alguém infetado.</p>
+<p>Apenas após a confirmação da infeção pelo Serviço Nacional de Saúde é que o utilizador da aplicação que contraiu a COVID-19 obterá um código numérico que, introduzindo na aplicação, permitirá que os seus contactos dos 14 dias anteriores sejam alertados para uma potencial ocasião de contágio.</p>
+<p>Nem a STAYAWAY COVID, nem nenhuma tecnologia hoje em dia conhecida, permite detetar quem está infetado ao nosso redor! Para isso são necessários os testes à COVID-19 que, atualmente, envolvem uma colheita de amostra por zaragatoa na nasofaringe e na orofaringe e não apresentam resultados instantaneamente.</p>
+<h2 id="why-google-and-apple-failed-at-covid-19-digital-response">Why Google and Apple Failed at COVID-19 Digital Response<a class="headerlink" href="#why-google-and-apple-failed-at-covid-19-digital-response" title="Permanent link">&para;</a></h2>
+<p>Artigo de opiniao:
+<a href="https://www.ictworks.org/google-apple-failure-covid-19-digital-response">https://www.ictworks.org/google-apple-failure-covid-19-digital-response</a></p>
+<ul>
+<li>Failure Wasn’t Due to Lack of Resources</li>
+<li>Three Reasons Why Apple and Google Failed</li>
+<li>Launching in an Emergency</li>
+<li>Putting Technology First</li>
+<li>Assuming Government Adoption</li>
+</ul>
+<p>"Many governments opted to build their own contact tracing software, with mixed results. 
+Singapore, Ireland, and Germany were very successful. 
+The UK’s effort was an object lesson in mismanagement. 
+Others took their time investigating the Apple/Google solution. 
+Switzerland became the first country to adopt the exposure notification system in May."</p>
+<h2 id="quais-sao-as-duas-tecnologias-para-as-apps-covid-qual-e-a-que-portugal-vai-ter">Quais sao as duas tecnologias para as Apps covid? qual 'e a que portugal vai ter?<a class="headerlink" href="#quais-sao-as-duas-tecnologias-para-as-apps-covid-qual-e-a-que-portugal-vai-ter" title="Permanent link">&para;</a></h2>
+<p>Existem duas tecnologias para as APPs covid. </p>
+<p>Este video mostra as diferencas:</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=g8lQmu8gaRE">https://www.youtube.com/watch?v=g8lQmu8gaRE</a></li>
+<li>4:45 Apps baseadas no bluetooth, sem localizacao GPS nem identidade. </li>
+<li>Esta 'e  solucao da APP portuguesa feita pelo INESC</li>
+<li>5:00 Apps baseadas em localizacao GPS, mais precisas</li>
+<li>Esta 'e a do estado do Utah nos EUA</li>
+</ul>
+<p>Fonte: 
+https://www.howtogeek.com/672810/how-your-iphone%E2%80%99s-new-covid-19-exposure-notifications-work/</p>
+<h2 id="porque-e-que-o-gaen-no-android-necessita-de-localizacao">Porque 'e que o GAEN no Android necessita de localização?<a class="headerlink" href="#porque-e-que-o-gaen-no-android-necessita-de-localizacao" title="Permanent link">&para;</a></h2>
+<p>No Android quando se liga o novo serviço bluetooth (GAEN), este também liga o serviço de localização:
+<a href="https://www.mirror.co.uk/news/uk-news/coronavirus-tracker-installed-your-smartphone-22224776">“Device location needs to be on to detect Bluetooth devices near you, 
+however, COVID-19 Exposure Notifications don't use device location,”</a></p>
+<p>Isto acontece porque os drivers bluetooth usam a localizacao para poupar bateria e ser mais eficiente. 
+Tal acontece <a href="http://nytimes.com/2020/07/20/technology/google-covid-tracker-app.html">desde 2015</a>.</p>
+<pre><code>Since 2015, Google’s Android system has required users to enable location on their phones to scan for 
+other Bluetooth devices, Mr. Voss said, because some apps may use Bluetooth to infer user location. 
+</code></pre>
+
+<p>O serviço de localização combina o GPS, Redes Wi-FI, Redes moveis 3g/4g, alem
+ dos próprios "beacons" bluetooth para saber onde o telemóvel esta'.
+As aplicacoes sao imensas, nomeadamente os mapas, acertar o relógio automaticamente, smartwatches, "Fobs" para nao perder as chaves de casa, etc.<br />
+Isto pode ser configurado no Android <a href="https://support.google.com/nexus/answer/6179507?hl=pt">nos settings</a></p>
+<p>O ponto crucial 'e que a APP CVOID - que 'e quem sabe que pessoa "X" tem covid - só e' 
+autorizada a entrar na loja da Apple e da Google se NAO pedir a localizacao.</p>
+<p>Fonte: ver of Ver ponto 10 <a href="https://static.googleusercontent.com/media/www.google.com/en//covid19/exposurenotifications/pdfs/Exposure-Notification-FAQ-v1.2.pdf">da FAQ</a>:</p>
+<pre><code>10.How will apps get approval to use this system?
+&quot;There will be restrictions on the data that apps can collect when using the API, 
+**including not being able to request access to location services**, and restrictions on how data can be used.&quot;
+</code></pre>
+
+<p>Ver também os comentários no <a href="https://yro.slashdot.org/story/20/07/20/2237257/google-promises-privacy-with-virus-app-but-can-still-collection-location-data">slashdot</a>.
+(AKA "News for Nerds").</p>
+<p>FAQ GAEN: <a href="https://www.google.com/intl/en_us/covid19/exposurenotifications/">https://www.google.com/intl/en_us/covid19/exposurenotifications/</a></p>
+<h2 id="o-gaen-liga-a-localizacao-no-iphone">o GAEN liga a localização no iPhone?<a class="headerlink" href="#o-gaen-liga-a-localizacao-no-iphone" title="Permanent link">&para;</a></h2>
+<p>O iphone NAO liga a localizacao ao ligar o bluetooth.<br />
+<a href="https://www.nytimes.com/2020/07/20/technology/google-covid-tracker-app.html">Fonte</a>.</p>
+<pre><code>Apple, which does not require iPhone users of the virus apps to turn on location, 
+declined to comment on Google’s location practices.
+</code></pre>
+
+<p>Mesmo que NAO fosse o caso, o servico de localizacao 'e costumizado por applicacoes e por servicos do
+sistem operativo:
+<img alt="" src="https://9to5mac.com/wp-content/uploads/sites/6/2018/08/how-to-turn-on-off-location-services-gps-iphone-ipad.jpg" />
+fonte: https://9to5mac.com/2018/08/27/iphone-ipad-how-to-turn-off-on-location-services-gps/</p>
+<p>Outras APPs que que nao usam o GAEN sao basicamente inuteis porque 
+nao funcionam quando o telemovel esta' trancado, por falta de "handshakes bluetooth".<br />
+<a href="https://www.theguardian.com/australia-news/2020/jun/17/covid-safe-app-australia-covidsafe-contact-tracing-australian-government-covid19-tracking-problems-working">Fonte</a></p>
+<pre><code>Mussared said the best thing the agency could do is implement the Apple-Google developed version of contact tracing into the app. It would resolve many of the ongoing issues, including the iPhone handshake problem, he said.
+</code></pre>
+
+<h2 id="os-codigos-da-app-nao-sao-gerados-automaticos">Os codigos da app nao sao gerados automaticos<a class="headerlink" href="#os-codigos-da-app-nao-sao-gerados-automaticos" title="Permanent link">&para;</a></h2>
+<p>StayAway Laboratórios privados não emitem códigos de alerta
+Só os médicos o podem fazer. Utentes têm de contactar vários serviços até conseguirem os dígitos para colocar na app</p>
+<p><a href="https://www.facebook.com/groups/205024390569013/permalink/343384310066353/">https://www.facebook.com/groups/205024390569013/permalink/343384310066353/</a></p>
+<h2 id="como-configurar-os-servicos-de-localizacao-em-android-e-iphone">Como configurar os servicos de localizacao em Android e Iphone?<a class="headerlink" href="#como-configurar-os-servicos-de-localizacao-em-android-e-iphone" title="Permanent link">&para;</a></h2>
+<p>Este artigo mostra como configurar os servicos de localizacao.<br />
+<a href="https://www.nytimes.com/2018/12/10/technology/prevent-location-data-sharing.html">https://www.nytimes.com/2018/12/10/technology/prevent-location-data-sharing.html</a></p>
+<p>Android:<br />
+<img alt=" " src="../img/config_localizacao_android.png" /></p>
+<p>Iphone:<br />
+<img alt=" " src="../img/config_localizacao_iphone.png" /></p>
+<h2 id="quantas-pessoas-ja-foram-alertadas-pela-app">Quantas pessoas já' foram alertadas pela APP?<a class="headerlink" href="#quantas-pessoas-ja-foram-alertadas-pela-app" title="Permanent link">&para;</a></h2>
+<p>A APP da Alemanha 'e das mais avançadas. Desde 15 Junho ate' 20 julho tiveram 15.5 Milhoes de downloads, 
+e 500+ pessoas infetadas <strong>emitiram</strong> alertas.</p>
+<p><strong>No entanto ninguém sabe quantas pessoas <strong>receberam</strong> alertas - precisamente porque a APP respeita a privacidade!</strong></p>
+<p>Para estimarem este numero, imaginem:</p>
+<ul>
+<li>500x pessoas</li>
+<li>por onde andaram fisicamente durante 14 dias</li>
+<li>Quem estiveram perto por &gt;15 minutos</li>
+<li>isto inclui pessoas conhecidos e pessoas anónimas</li>
+</ul>
+<p>Fonte: <a href="http://nytimes.com/2020/07/20/technology/google-covid-tracker-app.html">artigo nyt</a></p>
+<pre><code>Gottfried Ludewig, director general for digitalization and innovation for Germany’s Ministry of Health, 
+said of the Corona-Warn-App, which has been downloaded more than 15.5 million times. He said more than
+ 500 people who tested positive for the virus had used the app to notify other users of
+ possible virus exposure.
+</code></pre>
+
+<h2 id="app-covid-em-espanha">APP covid em espanha<a class="headerlink" href="#app-covid-em-espanha" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Utilizacao: <a href="https://www.xataka.com/aplicaciones/probamos-radar-covid-asi-funciona-aplicacion-rastreo-contactos-que-usaremos-espana">https://www.xataka.com/aplicaciones/probamos-radar-covid-asi-funciona-aplicacion-rastreo-contactos-que-usaremos-espana</a></li>
+<li>Documentos tecnicos: <a href="https://github.com/DP-3T/documents">https://github.com/DP-3T/documents</a></li>
+<li>Comparacao tecnica: <a href="https://eknoes.de/posts/covid19-apple-google-dp3t-comparison">https://eknoes.de/posts/covid19-apple-google-dp3t-comparison</a></li>
+</ul>
+<p>Permissoes da APP espanhola
+<img alt="" src="../img/app_espanha_permissoes.jpg" />  </p>
+<h2 id="carta-aberta-de-200-cientistas-a-favor-do-medelo-de-app-descentralizado-baseado-em-bt">Carta aberta de 200 cientistas a favor do medelo de APP descentralizado baseado em BT<a class="headerlink" href="#carta-aberta-de-200-cientistas-a-favor-do-medelo-de-app-descentralizado-baseado-em-bt" title="Permanent link">&para;</a></h2>
+<p><a href="https://giuper.github.io/JointStatement.pdf">https://giuper.github.io/JointStatement.pdf</a></p>
+<h2 id="sobre-tomas-pueyo">Sobre Tomas Pueyo<a class="headerlink" href="#sobre-tomas-pueyo" title="Permanent link">&para;</a></h2>
+<p>Os textos de Tomas Pueyo sao longos, mas sao de longe os melhor suportados com analises e os mais detalhados. <br />
+<a href="https://medium.com/@tomaspueyo">https://medium.com/@tomaspueyo</a></p>
+<p>Combinados, tiveram 60+ Milhoes de visualizacoes, foram subscritos por 100+ especialistas, e foram traduzidos em 40+ linguas pelos proprios leitores interessados.<br />
+<a href="https://medium.com/tomas-pueyo/coronavirus-articles-endorsements-fdc68614f8e3">https://medium.com/tomas-pueyo/coronavirus-articles-endorsements-fdc68614f8e3</a></p>
+<h2 id="entrevista-a-um-programador-da-app">Entrevista a um programador da App<a class="headerlink" href="#entrevista-a-um-programador-da-app" title="Permanent link">&para;</a></h2>
+<p>Excelente entrevista com um dos autores da APP portuguesa. Se nao confiarem em politicos... confiem nos informaticos.
+<a href="https://www.youtube.com/watch?v=qQga4IibkOK">https://www.youtube.com/watch?v=qQga4IibkOK</a></p>
+<p>Esta foi a agenda:
+1 - Como funciona a app STAYAWAY COVID?
+2 - A app estará disponível para todos os equipamentos (Mesmo os mais antigos)?
+3 - A app influencia a bateria do smartphone?
+4 - Porque STAYWAY COVID e não um nome em PT?
+5 - Na Irlanda a app é usada por 20% a 25% da população. Esperam superar estes números?
+6 - A versão para iPhone vai sair na mesma altura que a para Android?
+7 - Como foram realizados os testes?
+8 - Mensagem final para os utilizadores instalarem esta app.</p>
+<h2 id="sobre-a-app-no-pplware">Sobre a APP, no pplware<a class="headerlink" href="#sobre-a-app-no-pplware" title="Permanent link">&para;</a></h2>
+<p>Bom resumo da App num site especializado em informatica</p>
+<p><a href="https://pplware.sapo.pt/smartphones-tablets/app-portuguesa-stayaway-covid-de-que-ter-medo/">https://pplware.sapo.pt/smartphones-tablets/app-portuguesa-stayaway-covid-de-que-ter-medo/</a></p>
+<p>“Em Resumo…</p>
+<p>A app STAYAWAY COVID é segura
+Não são usadas informações do GPS
+Não são identificados contactos, ou seja, as tags da app são completamente anónimas
+Não há registo que a app tenha influência negativa na autonomia da bateria
+A app é de instalação voluntária
+Não é preciso qualquer tipo de registo
+A pessoa que está infetada pode decidir se quer alertar ou não outros utilizadores”</p>
+<h2 id="app-vs-apps-maradas">APP vs APPs maradas<a class="headerlink" href="#app-vs-apps-maradas" title="Permanent link">&para;</a></h2>
+<p>Em relacao 'a APP:</p>
+<p>Eu confirmei TECNICAMENTE que a APP foi desenhada de forma a:</p>
+<p>a) respeitar totalmente a privacidade,
+b) ser totalmente anonima,
+c) todos os passos serem voluntarios.</p>
+<p>So' agora 'e que as pessoas 'e estao a utilizar a app, e a confusao 'e grande.\<br />
+TODOS os dias respondo a imensas duvidas / cenarios / afirmacoes que a app 'e inutil. </p>
+<p>A resposta a TODOS estes problemas 'e a sempre mesma - 'e assim que funciona uma APP que seja:</p>
+<p>a) respeita totalmente a privacidade,
+b) 'e totalmente anonima, e
+c) todos os passos sao voluntarios.</p>
+<p>Por outro lado, se fosse uma app marada para ficar velhinho, ou mudar a foto de sexo, ou para jogar, ja' 
+toda a gente era especialista de informatica para a por a funcionar, e fazia com todo o cuidado todos os passos que ela pedia.</p>
+<hr />
+<p>A pergunta numero #1 'e as pessoas assumirem que a app 'e uma pulseira electronica obrigatoria do governo para instalarem depois de receberem o teste positivo.</p>
+<p>Nao 'e o caso, de todo. SIM, existe tecnologia para fazer isso, mas as apps europeias nao teem nada a ver com isso. </p>
+<p>A app serve para:
+a) a pessoa infectada avisar os contactos anteriores do seus ultimos 14 dias
+b) as pessoas nao-infectadas receberem os avisos das outras, e serem mais cuidadosas no futuro</p>
+<hr />
+<p>Por fim, um "top-5" das respostas:</p>
+<ul>
+<li>NAO, a app nao pede localizacao GPS, nem a camara, nem o microfone.</li>
+<li>NAO, a app nao sabe quem voce e'. Nao ha' qualquer registo. Nao pede o email. Nao ha' endereco postal. </li>
+<li>NAO, as empresas (Google+Apple) e o Governo nao vao ter quaisquer dados com a App. </li>
+<li>Pelo contrario, isso acontece 'e com as apps normais do Facebook, com o Gmail, icloud, whatsapp, instagram, e tiktok.</li>
+<li>SIM, a app 'e util para quem fica em casa depois do teste positivo. </li>
+<li>A App ja' tem que estar funcinar ANTES para poder avisar os contactos dos ultimos 14 dias antes do teste positivo.</li>
+<li>SIM, 'e preciso pedir o codigo e introduzir-lo manualmente depois de ter o teste positivo.</li>
+</ul>
+<p>O mundo actual 'e complicado. Sff perguntem e confiem APENAS em especialistas - cada um na sua area. Nao confiem nos grunhos do Facebook!</p>
+<hr />
+<p>A utilidade da App esta' no meio de entre essas 2 pessoas. 
+O problema esta' exactamente nas pessoas que "continuam a manter a sua vida normal, mantendo as medidas de protecção". 
+Conforme o numero de infectados o que antes era perfeitamente possivel e aceitavel, hoje pode ja' nao o ser. E vice versa, o que era proteccao em falta, hoje ja' pode ser exagerado.
+.
+A Pandemia e o risco muda demasiado depressa. A App 'e um sinal dinamico que vemos na auto-estrada.
+.
+Recomendo este artigo de Tomas Pueyo (autor do "martelo", com 60 milhoes de leituras) sobre o rastreamento e a utilidade da app no rastreamento.
+https://medium.com/@tomaspueyo/coronavirus-how-to-do-testing-and-contact-tracing-bde85b64072e</p>
+<p>taiwan:
+https://www.facebook.com/jonathan.chen.1213/posts/10158178965295127</p>
+<p>Taiwan’s Eternal Dance
+https://medium.com/@tomaspueyo/coronavirus-learning-how-to-dance-b8420170203e</p>
+<p>Tribolet: 12m10s
+https://tviplayer.iol.pt/programa/noticias/53c6b3613004dc006243c401/video/5f88999d0cf2ae07a25551e7</p>
+<h2 id="app-tem-que-estar-a-funcionar-antes-do-teste">APP tem que estar a funcionar ANTES do teste<a class="headerlink" href="#app-tem-que-estar-a-funcionar-antes-do-teste" title="Permanent link">&para;</a></h2>
+<p>Em complemento ao post anterior, aqui esta' um exemplo tipico de um grunho do Facebook.
+.
+O erro esta' no ponto 6. A app nao avisa a partir dessa altura para a frente.
+Avisa e' quem foi ja' contactado nos 14 dias anteriores sem saber que estava infectado!
+.
+.
+Eu podia ter um trabalho a tempo inteiro a responder a este tipo de lixo. Nao conseguia dar vazao.\<br />
+SFF nao partilhem ests cenas! obg</p>
+<h2 id="suporte-da-analise-tecnica-da-app">Suporte da analise tecnica da App<a class="headerlink" href="#suporte-da-analise-tecnica-da-app" title="Permanent link">&para;</a></h2>
+<p>Codigo fonte da APP:
+https://github.com/stayawayinesctec/stayaway-app</p>
+<p>FAQ do GAEN:
+https://www.google.com/covid19/exposurenotifications/</p>
+<p>Comentario 'a resolucao da CNPD:
+https://pestrela.github.io/covid/#app-e-privacidade</p>
+<p>Codigo fonte do D3PT (onde o GAEN fizeram o fork privado):
+https://github.com/DP-3T/documents#apple--google-exposure-notification</p>
+<p>A GAEN nao tem codigo fonte publico. Mas 'e um fork privado do D3PT, e esse tem o codigo aberto.
+O ponto crucial da arquitectura 'e que a API so' recebe tokens aleatorios para distribuir. 
+Estes tokens nao teem a info que "X tem covid".</p>
+<h2 id="quanto-custou-a-app">Quanto custou a app<a class="headerlink" href="#quanto-custou-a-app" title="Permanent link">&para;</a></h2>
+<p>A app nao teve financiamento publico e custou 400 mil euros.
+https://pplware.sapo.pt/smartphones-tablets/app-stayaway-covid-custou-perto-de-400-mil-euros/</p>
+<p>Para uma app com potencialmente 7 milhoes de utilizadores parece-me uma pechicha.
+https://marketeer.sapo.pt/7-milhoes-de-portugueses-tem-smartphone</p>
+<h2 id="como-funciona-a-app-por-dentro">Como funciona a app por dentro<a class="headerlink" href="#como-funciona-a-app-por-dentro" title="Permanent link">&para;</a></h2>
+<p>Para quem quer saber como a app funciona por dentro, e porque 'e que 'e privada:</p>
+<p>1) A pessoa "A" instala a app. Gera um codigo privado a cada 15 minutos. Este codigo 'e um numero giantesco que 'e impossivel de adivinhar. Alem disso, os numeros teem caracteristicas especiais como ser divisivel por 532244217326832872244231. 'E o mesmo metodo do banco online.</p>
+<p>2) As pessoas "B" e "C" instalam a app. O processo 'e igual para eles.</p>
+<p>3) As apps ouvem-se umas 'as outras por bluetooth, localmente, e trocam os codigos entre si. </p>
+<p>4) A pessoa "A" e B" encontram-se e trocam codigos. A pessoa "C" nunca esteve em contacto com "A" ou "B". </p>
+<p>5) os codigos sao guardados e apagados ao fim de 14 dias automaticamente.</p>
+<p>6) A pessoa "A" recebe o teste positivo. Pede manualmente um codigo especial do medico. A app consegue validar se o codigo especial esta' correcto. A app envia os numeros aleatorios de quem contactou nos ultimos 14 dias para um servidor central.</p>
+<p>7) a pessoa "B" faz o download dos codigos de "A". Como os guardou e batem certo, apresenta a notificacao. A unica informacao apresentada 'e o dia. A hora 'e escondida.</p>
+<p>8) a pessoa "C" faz o mesmo download. Mas como nunca esteve com "A", nenhum codigo ate certo para ela. Melhor, os codigos de "A" sao totalmente aleatorios sem qualquer significado para "C".</p>
+<p>video de explicacao:
+https://www.youtube.com/watch?v=oG3t7Gf_5VE</p>
+<h2 id="o-que-fazer-quando-a-app-enviar-um-alerta-enviar-alertas-demais">O que fazer quando a app enviar um alerta / enviar alertas demais<a class="headerlink" href="#o-que-fazer-quando-a-app-enviar-um-alerta-enviar-alertas-demais" title="Permanent link">&para;</a></h2>
+<p>Outra pergunta muito comum 'e:
+- o que fazer concretamente quando a app me der um alerta? vou a correr fazer um teste?
+e a sua evolucao:
+- Quando a app estiver massificada, vamos ter alertas diarios? o que fazer nessa altura?
+.
+.
+Para a primeira pergunta, se eu receber HOJE uma notificacao, passava a ser mais cuidadoso. Nao ia correr para a saude 24. 
+Por exmplo, deixava de ir a restaurantes que tenho ido durante a semana de trabalho. Mais importante, cancelava o almoco de familia para o domingo seguinte (exemplo).
+.
+Isto 'e como conduzir a 120 na auto-estrada. Quando aparece o sinal de "vento" ou "neve", devemos abrandar. Nao 'e preciso necessariamente parar. So' se vier um furacao!
+.
+Para a segunda pergunta, sim 'e possivel quando o sistema estar massificado. 
+Mas nessa situacao 'e muito facil mudar o parametro dos 15 minutos para, por exemplo, 30 minutos. 
+Qualquer sistema de engenharia funciona assim e tem que ser calibrado/analisado periodicamente. </p>
+<h2 id="a-app-e-demasiado-manual">A APP 'e demasiado manual<a class="headerlink" href="#a-app-e-demasiado-manual" title="Permanent link">&para;</a></h2>
+<p>A APP respeita todas as garantias de privacidade.</p>
+<p>O cuidado foi tanto que isto foi levado a um limite ridículo: O tratamento dos códigos é completamente manual.
+Isto leva a que apenas 3% dos casos tenha gerado o código de alerta.</p>
+<p>Não está claro para mim de onde veio esta imposição: se do governo, se do INESC, se da CNPD, se dos médicos...</p>
+<p>Um sistema melhor era TODOS os passos serem automáticos DEPOIS da adesão inicial voluntária.</p>
+<p>Entrevista ao INESC:
+"teremos side extremamente escrupulosos no procedimento da geração de códigos"
+"esse procedimento foi revelado complicado, pouco flexível, e nao compativel com as situações de urgência / aflição que os médicos ligam com este caso"</p>
+<p><a href="https://www.youtube.com/watch?v=_hEV8bbTNBo">https://www.youtube.com/watch?v=_hEV8bbTNBo</a>
+<a href="https://zap.aeiou.pt/stayaway-obrigatoria-eficacia-reduzida-360904">https://zap.aeiou.pt/stayaway-obrigatoria-eficacia-reduzida-360904</a></p>
+<h2 id="a-app-falhou-por-razoes-politicas">A App falhou por razoes politicas<a class="headerlink" href="#a-app-falhou-por-razoes-politicas" title="Permanent link">&para;</a></h2>
+<p>Esta declaracao de 60 segundos e 'e um exemplo clarissimo que o sucesso de um projecto de adopcao global 'e 5% de razoes tecnicas, e 95% de razoes politicas.</p>
+<p>A maior parte dessas razoes politicas acontecem porque os politicos nao sao tecnicos, nem percebem de tecnologia.</p>
+<p><a href="https://www.youtube.com/watch?v=Txyp5rKNc7s">https://www.youtube.com/watch?v=Txyp5rKNc7s</a></p>
+<h2 id="marco-2021-governo-quer-agilizar-app">Marco 2021: governo quer agilizar App<a class="headerlink" href="#marco-2021-governo-quer-agilizar-app" title="Permanent link">&para;</a></h2>
+<p>Finalmente o governo percebeu que a app falhou por razoes politicas:</p>
+<ul>
+<li>geracao por outros profissionais de saúde, que não apenas médicos</li>
+<li>geracao totalmente automatica de codigos </li>
+</ul>
+<p><a href="https://www.dinheirovivo.pt/geral/governo-quer-alterar-aplicacao-stayaway-covid-13500631.html">https://www.dinheirovivo.pt/geral/governo-quer-alterar-aplicacao-stayaway-covid-13500631.html</a></p>
+<p>Sem surpresa a CNPD levanta problemas:
+"nada permite, por isso, afirmar a capacidade dessa comunicacao em manter a preotecao de dados dos titulares"
+"a entrada de uma nova entidde no circuita da informacao, entidde asministrtiv que opera fora dos servicos de saude..."
+<a href="https://www.cnpd.pt/umbraco/surface/cnpdDecision/download/121866">https://www.cnpd.pt/umbraco/surface/cnpdDecision/download/121866</a></p>
+<p>Ja' passou um ano. Continua a nao haver urgencia nenhuma.</p>
+<h2 id="resolucoes-da-cnpd-sobre-a-app">Resolucoes da CNPD sobre a APP<a class="headerlink" href="#resolucoes-da-cnpd-sobre-a-app" title="Permanent link">&para;</a></h2>
+<p>A CNPD comentou diversas vezes a APP stayaway covid. Aqui esta' a lista:
+<a href="https://www.cnpd.pt/covid-19/">https://www.cnpd.pt/covid-19/</a></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../mascaras/" class="btn btn-neutral float-right" title="Mascaras">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../testes/" class="btn btn-neutral" title="Testes"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../testes/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../mascaras/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
