@@ -2,39 +2,41 @@
 
 This site contains my repository contains my DJ and covid Blog posts
 
-* Knowledge base: 
-    * <https://github.com/pestrela/dj_kb>
+* DJ Knowledge base: 
     * <http://pestrela.github.io/dj_kb>
+    * <https://dj-kb.readthedocs.io/>
+
+
 * Mappings documentation: <https://github.com/pestrela/dj_maps>
 
-Covid: <https://covid-pestrela.readthedocs.io/>
+* Covid posts : <https://covid-pestrela.readthedocs.io/>
 
 ## DJ Estrela - Github home
 
 This repository contains my Blog posts, my Scripts and my DJ Mappings 
 
-* [Blog posts](traktor/README.md)
+* [Blog posts](http://pestrela.github.io/dj_kb)
     * Start here. This is my knowledge-base with a lot of technical information useful for DJs
   
-* [Traktor Tools](traktor)
+* [Traktor Tools](https://github.com/pestrela/music/tree/master/traktor/tools_traktor)
     * Contains my Mapppings, Scripts, Tools, and Converters for Traktor
 
-* [Pioneer DDJ](ddj)
+* [Pioneer DDJ](https://github.com/pestrela/ddj)
     * Technical info for Pioneer DDJ controllers
 
-* [Picture Sets](pic_sets)
+* [Picture Sets](https://github.com/pestrela/music/tree/master/pic_sets)
     * Picture collections of DJ gear, Dj Cakes, and Digital DJ Tips Guides
   
-* [Yearly Census graphs](census_graphs)
+* [Yearly Census graphs](https://github.com/pestrela/music/tree/master/census_graphs)
     * Graphs over time of the DJtechtools and DigitalDJTips yearly census
 
-* [Flac Tester](flac_tester)
+* [Flac Tester](https://github.com/pestrela/music/tree/master/flac_tester)
     * Tagging the lossy mp3 cutoff value into the file itself
 
-* [WSL downloads tools](wsl_tools)
+* [WSL downloads tools](https://github.com/pestrela/music/tree/master/wsl_tools)
     * Wrappers for useful Download tools. 
   
-* [AutoHotKey scripts](wsl_tools/AutoHotkey.ahk)
+* [AutoHotKey scripts](https://github.com/pestrela/music/blob/master/wsl_tools/AutoHotkey.ahk)
     * Script to add useful shortcuts to Windows (eg: search in youtube)
   
 # DJ Estrela - Mixes and Mappings
@@ -44,37 +46,36 @@ You can also download all mp3s, and see the complete lyrics.
 
 ## Music Mixes
 * Trance Mixes:
-    * https://www.mixcloud.com/dj_estrela/
+    * <https://hearthis.at/djestrela/set/djestrelatrance/>
 
 * House Mixes:
-    * https://www.mixcloud.com/dj_estrela_house
+    * <https://hearthis.at/djestrela/set/djestrelahouse/>
 
 * 80s Mixes:
-    * https://www.mixcloud.com/dj_estrela_80s
+    * <https://hearthis.at/djestrela/set/djestrela80s/>
 
 * Live Recordings (Trance):  
-    * https://www.mixcloud.com/t-friends
+    * <https://hearthis.at/djestrela/set/t-friends.com/>
 
 * Live Recordings (Top-40 and 80s)
-    * https://www.mixcloud.com/dj_estrela_dj_camel
+    * <https://hearthis.at/djestrela/set/djestreladjcamel/>
 
 ## Music Downloads:
 * MP3 Downloads:
     * https://hearthis.at/djestrela/
   
 * Tracklist & Lyrics:
-    * https://github.com/pestrela/music/tree/master/tracklists
+    * https://github.com/pestrela/music/tree/master/tracklists>
     
 ## Traktor Mappings    
 * DDJ-1000:
-    * https://maps.djtechtools.com/mappings/9279
+    * https://maps.djtechtools.com/mappings/9279>
   
 * DDJ-SX2/SZ/SRT:
-    * https://maps.djtechtools.com/mappings/9222
+    * https://maps.djtechtools.com/mappings/9222>
   
 * Akai AMX:
-    * https://maps.djtechtools.com/mappings/9323
+    * https://maps.djtechtools.com/mappings/9323>
   
-* Traktor knowledge base
-    * https://github.com/pestrela/music/blob/master/traktor/README.md
+
     
